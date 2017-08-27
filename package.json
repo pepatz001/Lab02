@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/pepatz001/Lab02/issues"
   },
-  "homepage": "https://github.com/pepatz001/Lab02#readme"
+  "homepage": "https://github.com/pepatz001/Lab02#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
