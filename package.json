@@ -1,0 +1,19 @@
+{
+  "name": "lab02",
+  "version": "1.0.0",
+  "description": "Introduction to ES6.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pepatz001/Lab02.git"
+  },
+  "author": "Sira Lownoppakul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pepatz001/Lab02/issues"
+  },
+  "homepage": "https://github.com/pepatz001/Lab02#readme"
+}
