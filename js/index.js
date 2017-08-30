@@ -45,6 +45,15 @@ function upper(myField) {
 
 function getText(text){
 	insertAtCursor(document.getElementById('textarea'), text.innerHTML);
+	if(check == false){
+		var letter = document.getElementsByClassName("letter");
+		//alert(letter[1].innerHTML);
+		for (var i = 0; i < letter.length; i++) {
+			document.getElementsByClassName("letter")[i].innerHTML = letter[i].innerHTML.toLowerCase();
+		}
+		check = true;
+			//document.getElementById("a").innerHTML = "A";
+	}
 	//document.getElementById('textarea').innerHTML = document.getElementById('textarea').innerHTML + text.innerHTML;
 }
 
