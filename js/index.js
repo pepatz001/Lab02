@@ -75,7 +75,7 @@ function enter(){
 function insertAtCursor(myField, myValue) {
     var startPos = myField.selectionStart;
     var endPos = myField.selectionEnd;
-    myField.innerHTML = myField.value.substring(0, startPos)
+    myField.value = myField.value.substring(0, startPos)
         + myValue
         + myField.value.substring(endPos, myField.value.length);
 
@@ -86,7 +86,7 @@ function insertAtCursor(myField, myValue) {
 function deleteAtCursor(myField) {
     var startPos = myField.selectionStart;
     var endPos = myField.selectionEnd;
-    myField.innerHTML = myField.value.substring(0, startPos - 1)
+    myField.value = myField.value.substring(0, startPos - 1)
         + myField.value.substring(endPos, myField.value.length);
 
     document.getElementById("textarea").focus();
